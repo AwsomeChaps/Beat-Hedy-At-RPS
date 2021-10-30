@@ -16,8 +16,8 @@ if choice is spock and compChoice is lizard print 'computer wins, lizard posions
 if choice is lizard and compChoice is scissor print 'computer wins, scissors dacapitates lizard'
 if choice is lizard and compChoice is rock print 'computer wins, rock crushes lizard'
 
-if choice is rock and lizard is spock print 'you win, rock crushes lizard'
-if choice is rock and scissor is paper print 'you win, rock crushes scissors'
+if choice is rock and compChoice is lizard print 'you win, rock crushes lizard'
+if choice is rock and compChoice is scissors print 'you win, rock crushes scissors'
 if choice is paper and compChoice is rock print 'you win, paper covers rock'
 if choice is paper and compChoice is spock print 'you win, paper disproves spock'
 if choice is scissor and compChoice is lizard print 'you win, scissors dacapitates lizard'
