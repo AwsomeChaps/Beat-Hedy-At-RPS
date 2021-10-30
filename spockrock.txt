@@ -1,0 +1,28 @@
+options is rock, paper, scissors, spock, lizard
+compChoice is options at random
+choice is ask 'What do you choose? '
+print 'you chose ' choice
+print 'computer chose ' compChoice
+if choice is compChoice print 'tie!' else print 'no tie'
+
+if choice is rock and compChoice is spock print 'computer wins, spock vaporizes rock'
+if choice is rock and compChoice is paper print 'computer wins, paper covers rock'
+if choice is paper and compChoice is scissor print 'computer wins, scissor cuts paper'
+if choice is paper and compChoice is lizard print 'computer wins, lizard eats paper'
+if choice is scissor and compChoice is spock print 'computer wins, spock smashes scissors'
+if choice is scissor and compChoice is rock print 'computer wins, rock crushes scissors'
+if choice is spock and compChoice is paper print 'computer wins, paper disproves spock'
+if choice is spock and compChoice is lizard print 'computer wins, lizard posions spock'
+if choice is lizard and compChoice is scissor print 'computer wins, scissors dacapitates lizard'
+if choice is lizard and compChoice is rock print 'computer wins, rock crushes lizard'
+
+if choice is rock and lizard is spock print 'you win, rock crushes lizard'
+if choice is rock and scissor is paper print 'you win, rock crushes scissors'
+if choice is paper and compChoice is rock print 'you win, paper covers rock'
+if choice is paper and compChoice is spock print 'you win, paper disproves spock'
+if choice is scissor and compChoice is lizard print 'you win, scissors dacapitates lizard'
+if choice is scissor and compChoice is paper print 'you win, scissor cuts paper'
+if choice is spock and compChoice is rock print 'you win, spock vaporizes rock'
+if choice is spock and compChoice is scissor print 'you win, spock smashes scissors'
+if choice is lizard and compChoice is spock print 'you win, lizard posions spock'
+if choice is lizard and compChoice is paper print 'you win, lizard eats paper'
